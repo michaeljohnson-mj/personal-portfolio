@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--theme-color);
+  color: var(--color-white);
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Nunito Semi Bold";
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,126 @@
+.home-area {
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  background-image: url("../../assets/images/ic_home-background.png");
+}
+
+.home-container {
+  padding: 200px 0px 0px 0px;
+}
+
+.hero-image-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.alert-pill {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+  border-radius: 30px;
+  display: inline-block;
+  background: var(--color-white);
+  font-family: "Nunito Semi Bold";
+  font-weight: 600;
+}
+
+.intro-text {
+  font-size: 57px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-family: "Nunito Semi Bold";
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.intro-text > span {
+  color: var(--theme-color);
+}
+
+.sub-intro-text {
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  font-family: "Nunito Regular";
+  font-weight: 400;
+  letter-spacing: 0.025px;
+  color: var(--color-grey);
+}
+
+.download-cv-holder {
+  margin-top: 40px;
+}
+
+.download-cv-btn {
+  font-family: "Nunito Semi Bold";
+  border: 1px solid var(--theme-color);
+  padding: 8px 34px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.download-cv-btn:hover {
+  background: var(--theme-color);
+  color: var(--color-white);
+  transition: all 0.5s;
+}
+
+.about-myself {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  min-height: 150px;
+  width: 80%;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.profile-pic {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%),
+    0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .home-container {
+    padding: 100px 20px 20px 20px !important;
+  }
+
+  .hero-image-holder {
+    padding: 20px;
+    margin-top: 25px !important;
+  }
+
+  .about-myself {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro-text {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  .intro-text {
+    font-size: 50px;
+  }
+}

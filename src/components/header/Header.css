@@ -1,0 +1,133 @@
+.header {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.header.active {
+  background: var(--color-white);
+  box-shadow: 0 10px 33px rgb(0 0 0 / 10%);
+}
+
+.header-container {
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--theme-color);
+  margin: 0;
+  float: left;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0px 0;
+  letter-spacing: 1px;
+  font-family: "Nunito Bold";
+  cursor: pointer;
+}
+
+.header-container ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.header-container ul li {
+  margin-inline: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.header-container ul li a {
+  color: var(--color-dark);
+  text-decoration: none;
+  font-family: "Nunito Regular";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header-container ul li:hover a {
+  color: var(--theme-color);
+  font-family: "Nunito Semi Bold";
+}
+
+.font-awesome-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--theme-color);
+}
+
+#check-label {
+  display: none;
+}
+
+label #btn,
+label #cancel {
+  color: var(--theme-color);
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 700px) {
+  .header {
+    background: var(--color-white);
+    padding: 10px;
+  }
+
+  label #btn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 80px;
+    left: -100%;
+    padding-left: 0px !important;
+    text-align: center;
+    background: var(--color-white);
+    transition: all 0.5ms;
+    flex-direction: column;
+  }
+
+  .header-container ul li {
+    display: block;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+  .header-container ul li a {
+    font-size: 20px;
+  }
+
+  #check-label {
+    display: block;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}

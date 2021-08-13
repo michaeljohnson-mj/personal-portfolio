@@ -1,0 +1,115 @@
+.experience-container {
+  padding: 50px 0px 80px 0px;
+}
+
+.timeline-item {
+  width: 80%;
+  margin: 0 0 60px;
+  border: 1px dashed gainsboro;
+  position: relative;
+}
+
+.timeline-item1 {
+  padding: 15px 20px 15px 150px;
+  border-top-left-radius: 100px;
+  float: left;
+}
+
+.timeline-item2 {
+  padding: 15px 150px 15px 20px;
+  border-bottom-right-radius: 100px;
+  float: right;
+}
+
+.timeline-heading {
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+  font-family: "Nunito Semi Bold";
+  color: var(--color-dark);
+  text-transform: capitalize;
+}
+
+.timeline-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  font-family: "Nunito Regular";
+  color: var(--color-dark-secondary);
+}
+
+.timeline-description {
+  margin-top: 10px;
+}
+
+.duration {
+  background-color: rgba(0, 123, 254, 0.08);
+  color: var(--theme-color);
+  padding: 4px 8px;
+  margin-left: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.duration-text {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: "Nunito Regular";
+  padding: 0.35em 0.65em;
+}
+
+.timeline-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 7px solid var(--color-white);
+  background: var(--color-grey-secondary);
+  position: absolute;
+  box-shadow: 0px 0px 0px 1px var(--color-grey-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline1-icon {
+  left: 20px;
+  bottom: -40px;
+}
+
+.timeline2-icon {
+  right: 20px;
+  top: -40px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .timeline-item {
+    width: 100%;
+    margin: 0 0 60px;
+  }
+
+  .timeline-item1,
+  .timeline-item2 {
+    position: relative;
+    padding: 20px;
+    float: none;
+    padding: 70px 20px 20px 20px !important;
+    border-bottom-right-radius: 60px !important;
+    border-top-left-radius: 0px !important;
+  }
+
+  .timeline1-icon,
+  .timeline2-icon {
+    left: 20px;
+    top: -40px;
+  }
+
+  .duration {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+  }
+}

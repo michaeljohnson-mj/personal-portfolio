@@ -1,0 +1,26 @@
+.scroll-to-top {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+  right: 50px;
+  bottom: 80px;
+  background: rgba(0, 123, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hide-scroll-to-top {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  .scroll-to-top {
+    bottom: 60px;
+    right: 20px;
+  }
+}

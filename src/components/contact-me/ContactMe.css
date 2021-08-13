@@ -1,0 +1,45 @@
+.contact-container {
+  background: var(--color-white);
+  padding: 50px 0px 80px 0px;
+}
+
+.contact-info-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-icon {
+  font-size: 30px;
+  color: var(--theme-color);
+}
+
+.contact-title {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+  font-family: "Nunito Semi Bold";
+  color: var(--color-dark);
+  text-transform: capitalize;
+}
+
+.contact-data {
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  font-family: "Nunito Semi Bold";
+  color: var(--theme-color);
+  padding-bottom: 30px;
+}
+
+.contact-link {
+  color: var(--theme-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
