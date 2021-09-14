@@ -15,9 +15,7 @@ function Home() {
             <h1 className="intro-text">
               {greeting.greetingText} <span>{greeting.name}</span>
             </h1>
-            <p className="sub-intro-text">
-              A software engineer who focuses on building engaging and interactive applications across the spectrum of devices and platforms by using modern technologies, frameworks etc.
-            </p>
+            <p className="sub-intro-text">{greeting.introText}</p>
             <div className="download-cv-holder">
               <a
                 href={greeting.resumeLink}
@@ -39,7 +37,8 @@ function Home() {
         </div>
 
         <div className="about-myself row no-container">
-          <div className="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 flex-column align-center">
+          <div className="title d-flex justify-content-center">About Me</div>
+          <div className="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 flex-column align-center about-myself-content">
             <p className="sub-intro-text">{greeting.aboutMeFirstParagraph}</p>
             <p className="sub-intro-text">{greeting.aboutMeSecondParagraph}</p>
             <p className="sub-intro-text">{greeting.aboutMeThirdParagraph}</p>

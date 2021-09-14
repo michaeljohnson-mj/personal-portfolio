@@ -16,6 +16,8 @@ const seo = {
 const greeting = {
   greetingText: "Hi! I'm ",
   name: "Michael Johnson",
+  introText:
+    "A software engineer who focuses on building engaging and interactive applications across the spectrum of devices and platforms by using modern technologies, frameworks etc.",
   aboutMeFirstParagraph:
     "I'm a Software Engineer based in Bengaluru, who is primarily focused on Web and Mobile Application Development using ReactJS and React Native. I have also worked on Backend development using NodeJS and ExpressJS.",
   aboutMeSecondParagraph:
@@ -71,8 +73,12 @@ const skills = {
       imageName: "ic_typescript",
     },
     {
-      skillName: "React JS and React Native",
+      skillName: "React JS",
       imageName: "ic_reactjs",
+    },
+    {
+      skillName: "React Native",
+      imageName: "ic_react_native",
     },
     {
       skillName: "Redux",
@@ -127,8 +133,7 @@ const projects = {
       subtitle:
         "Signify Saathi is a loyalty platform to incentivize its channel partners",
       imageName: "ic_signify",
-      webUrl:
-        "https://ecolink.emproto.com",
+      webUrl: "https://ecolink.emproto.com",
       appstoreUrl: null,
       playstoreUrl:
         "https://play.google.com/store/apps/details?id=com.emproto.ecolink",
@@ -148,7 +153,8 @@ const projects = {
     },
     {
       title: "Black Tulip Flowers",
-      subtitle: "A product using which we can purchase flowers and bouquets online",
+      subtitle:
+        "A product using which we can purchase flowers and bouquets online",
       imageName: "ic_btf",
       webUrl:
         "http://admin-btf-fe-stage.s3-website.ap-south-1.amazonaws.com/login",

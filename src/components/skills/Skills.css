@@ -28,6 +28,13 @@
   height: auto;
 }
 
+.skillname-text {
+  font-size: 12px;
+  margin-top: -10px;
+  text-align: center;
+  color: var(--color-grey);
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
   .skill-section-image {

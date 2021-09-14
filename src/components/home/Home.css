@@ -1,8 +1,8 @@
 .home-area {
   background-size: cover;
   position: relative;
-  /* background-position: center center; */
-  /* background-image: url("../../assets/images/ic_home-background.png"); */
+  background-position: center center;
+  background-image: url("../../assets/images/ic_home-background.png");
 }
 
 .home-container {
@@ -89,10 +89,16 @@
   margin-right: auto !important;
 }
 
+.about-myself-content {
+  margin-top: 10px !important;
+  text-align: justify;
+}
+
 .profile-pic {
   height: 200px;
   width: auto;
   object-fit: cover;
+  border-radius: 4px;
   box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%),
     0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%);
 }

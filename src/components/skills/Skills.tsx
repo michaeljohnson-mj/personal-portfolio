@@ -5,6 +5,7 @@ import ic_html5 from "../../assets/images/ic_html5.png";
 import ic_css3 from "../../assets/images/ic_css3.png";
 import ic_angularjs from "../../assets/images/ic_angularjs.png";
 import ic_reactjs from "../../assets/images/ic_reactjs.png";
+import ic_react_native from "../../assets/images/ic_react_native.png";
 import ic_nodejs from "../../assets/images/ic_nodejs.png";
 import ic_javascript from "../../assets/images/ic_javascript.png";
 import ic_typescript from "../../assets/images/ic_typescript.png";
@@ -26,6 +27,8 @@ function renderSkillImage(imageName: string) {
       return ic_angularjs;
     case "ic_reactjs":
       return ic_reactjs;
+    case "ic_react_native":
+      return ic_react_native;
     case "ic_redux":
       return ic_redux;
     case "ic_nodejs":
@@ -70,6 +73,7 @@ function Skills() {
                         alt={`${skill.skillName}`}
                       />
                     </div>
+                    <div className="skillname-text">{skill.skillName}</div>
                   </div>
                 );
               })}
