@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.660e9419.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.92a4bea4.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.92a4bea4.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.2cd5d5da.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.db8977c8.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.db8977c8.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.9084e5ce.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.9084e5ce.js.map",
     "static/css/2.61b4cb56.chunk.css": "/personal-portfolio/static/css/2.61b4cb56.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.df84f854.chunk.js.map": "/personal-portfolio/static/js/3.df84f854.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/personal-portfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.660e9419.chunk.css.map": "/personal-portfolio/static/css/main.660e9419.chunk.css.map",
+    "static/css/main.2cd5d5da.chunk.css.map": "/personal-portfolio/static/css/main.2cd5d5da.chunk.css.map",
     "static/js/2.86020968.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.86020968.chunk.js.LICENSE.txt",
     "static/media/index.css": "/personal-portfolio/static/media/Nunito-SemiBold.06337b2e.ttf",
     "static/media/ic_appstore.2e805a2b.svg": "/personal-portfolio/static/media/ic_appstore.2e805a2b.svg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.9084e5ce.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.86020968.chunk.js",
-    "static/css/main.660e9419.chunk.css",
-    "static/js/main.92a4bea4.chunk.js"
+    "static/css/main.2cd5d5da.chunk.css",
+    "static/js/main.db8977c8.chunk.js"
   ]
 }
