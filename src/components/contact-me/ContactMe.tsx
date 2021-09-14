@@ -7,7 +7,7 @@ function ContactMe() {
   return (
     <div className="contact-container">
       <div className="container">
-        <div className="row title-holder">
+        <div className="row no-container title-holder">
           <h1 className="title align-text-center">{contactMe.title}</h1>
           <span className="sub-title align-text-center">
             Let's connect! I am available on&nbsp;
@@ -24,7 +24,7 @@ function ContactMe() {
             Development.
           </span>
         </div>
-        <div className="row">
+        <div className="row no-container">
           {contactMe.contacts.map((contact, index) => {
             return (
               <div

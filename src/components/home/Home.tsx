@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-area">
       <div className="container home-container">
-        <div className="row">
+        <div className="row no-container">
           <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
             <div className="alert-pill">
               🌟 Looking for a Software Engineer !
@@ -38,7 +38,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="about-myself row">
+        <div className="about-myself row no-container">
           <div className="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 flex-column align-center">
             <p className="sub-intro-text">{greeting.aboutMeFirstParagraph}</p>
             <p className="sub-intro-text">{greeting.aboutMeSecondParagraph}</p>

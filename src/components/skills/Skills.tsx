@@ -43,7 +43,7 @@ function Skills() {
   return (
     <div className="skill-container">
       <div className="container skill-container">
-        <div className="row">
+        <div className="row no-container">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1">
             <img
               className="skill-section-image"
@@ -56,7 +56,7 @@ function Skills() {
               <h1 className="title">{skills.title}</h1>
               <p className="sub-title align-text-center">{skills.subtitle}</p>
             </div>
-            <div className="row">
+            <div className="row no-container">
               {skills.skills.map((skill, index) => {
                 return (
                   <div

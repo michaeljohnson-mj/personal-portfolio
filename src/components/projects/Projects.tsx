@@ -6,13 +6,13 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="container">
-        <div className="row title-holder">
+        <div className="row no-container title-holder">
           <h1 className="title align-text-center">{projects.title}</h1>
           <span className="sub-title align-text-center">
             {projects.description}
           </span>
         </div>
-        <div className="row">
+        <div className="row no-container">
           {projects.projects.map((project, index) => {
             return (
               <div

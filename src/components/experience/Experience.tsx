@@ -6,7 +6,7 @@ import { faSun, faSnowflake } from "@fortawesome/free-regular-svg-icons";
 function Experience() {
   return (
     <div className="container experience-container">
-      <div className="row">
+      <div className="row no-container">
         <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 align-center">
           <div className="title-holder">
             <h1 className="title align-text-center">{workExperience.title}</h1>
