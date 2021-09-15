@@ -21,7 +21,7 @@ const greeting = {
   aboutMeFirstParagraph:
     "I'm a Software Engineer based in Bengaluru, who is primarily focused on Web and Mobile Application Development using ReactJS and React Native. I have also worked on Backend development using NodeJS and ExpressJS.",
   aboutMeSecondParagraph:
-    "Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups.",
+    "I have been employed in the tech industry since 2016. Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups.",
   aboutMeThirdParagraph:
     "I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
   resumeLink:
