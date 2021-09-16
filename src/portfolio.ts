@@ -18,15 +18,11 @@ const greeting = {
   name: "Michael Johnson",
   introText:
     "A software engineer who focuses on building engaging and interactive applications across the spectrum of devices and platforms by using modern technologies, frameworks etc.",
-  aboutMeFirstParagraph:
-    "I'm a Software Engineer based in Bengaluru, who is primarily focused on Web and Mobile Application Development using ReactJS and React Native. I have also worked on Backend development using NodeJS and ExpressJS.",
-  aboutMeSecondParagraph:
-    "I have been employed in the tech industry since 2016. Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups.",
-  aboutMeThirdParagraph:
-    "I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
+  aboutMeText:
+    "A Software Engineer based in Bengaluru, whose primary focus is on Web and Mobile Application Development using ReactJS and React Native with an additional experience on Backend development using NodeJS and ExpressJS. I have been employed in the tech industry since 2016. Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups. I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
   resumeLink:
     "https://drive.google.com/file/d/13v8IN2Bxp5HUx3x5rA9Z03ZQav8mt4Y3/view?usp=sharing",
-  alertPillText: "🌟 Looking for a Software Engineer !",
+  alertPillText: "🌟 Looking for a Software Engineer ?",
 };
 
 const socialMediaLinks = [
