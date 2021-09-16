@@ -1,10 +1,10 @@
 import "./Projects.css";
-import ic_intentwise from "../../assets/images/ic_intentwise.png";
-import ic_talisma from "../../assets/images/ic_talisma.png";
-import ic_signify from "../../assets/images/ic_signify.png";
-import ic_phablecare from "../../assets/images/ic_phablecare.png";
-import ic_titan from "../../assets/images/ic_titan.png";
-import ic_btf from "../../assets/images/ic_btf.png";
+import ic_intentwise from "../../assets/images/project-images/ic_intentwise.png";
+import ic_talisma from "../../assets/images/project-images/ic_talisma.png";
+import ic_signify from "../../assets/images/project-images/ic_signify.png";
+import ic_phablecare from "../../assets/images/project-images/ic_phablecare.png";
+import ic_titan from "../../assets/images/project-images/ic_titan.png";
+import ic_btf from "../../assets/images/project-images/ic_btf.png";
 import ic_playstore from "../../assets/images/ic_playstore.png";
 import ic_appstore from "../../assets/images/ic_appstore.svg";
 

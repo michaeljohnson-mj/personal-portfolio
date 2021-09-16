@@ -1,17 +1,17 @@
 import "./Skills.css";
 import { skills } from "../../portfolio";
-import ic_skills from "../../assets/images/ic_skills.svg";
-import ic_html5 from "../../assets/images/ic_html5.png";
-import ic_css3 from "../../assets/images/ic_css3.png";
-import ic_angularjs from "../../assets/images/ic_angularjs.png";
-import ic_reactjs from "../../assets/images/ic_reactjs.png";
-import ic_react_native from "../../assets/images/ic_react_native.png";
-import ic_nodejs from "../../assets/images/ic_nodejs.png";
-import ic_javascript from "../../assets/images/ic_javascript.png";
-import ic_typescript from "../../assets/images/ic_typescript.png";
-import ic_redux from "../../assets/images/ic_redux.png";
-import ic_npm from "../../assets/images/ic_npm.png";
-import ic_git from "../../assets/images/ic_git.png";
+import ic_skills_blue from "../../assets/images/section-images/ic_skills_blue.svg";
+import ic_html5 from "../../assets/images/skill-images/ic_html5.png";
+import ic_css3 from "../../assets/images/skill-images/ic_css3.png";
+import ic_angularjs from "../../assets/images/skill-images/ic_angularjs.png";
+import ic_reactjs from "../../assets/images/skill-images/ic_reactjs.png";
+import ic_react_native from "../../assets/images/skill-images/ic_react_native.png";
+import ic_nodejs from "../../assets/images/skill-images/ic_nodejs.png";
+import ic_javascript from "../../assets/images/skill-images/ic_javascript.png";
+import ic_typescript from "../../assets/images/skill-images/ic_typescript.png";
+import ic_redux from "../../assets/images/skill-images/ic_redux.png";
+import ic_npm from "../../assets/images/skill-images/ic_npm.png";
+import ic_git from "../../assets/images/skill-images/ic_git.png";
 
 function renderSkillImage(imageName: string) {
   switch (imageName) {
@@ -50,7 +50,7 @@ function Skills() {
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1">
             <img
               className="skill-section-image"
-              src={ic_skills}
+              src={ic_skills_blue}
               alt="Skills section banner"
             />
           </div>

@@ -1,6 +1,11 @@
 import "./Home.css";
 import { greeting } from "../../portfolio";
-import ic_intro from "../../assets/images/ic_intro.svg";
+import ic_intro_blue from "../../assets/images/section-images/ic_intro_blue.svg";
+import ic_intro_green from "../../assets/images/section-images/ic_intro_green.svg";
+import ic_intro_red from "../../assets/images/section-images/ic_intro_red.svg";
+import ic_intro_yellow from "../../assets/images/section-images/ic_intro_yellow.svg";
+import ic_intro_orange from "../../assets/images/section-images/ic_intro_orange.svg";
+import ic_intro_purple from "../../assets/images/section-images/ic_intro_purple.svg";
 import ic_profile_pic from "../../assets/images/ic_profile_pic.jpg";
 
 function Home() {
@@ -9,9 +14,7 @@ function Home() {
       <div className="container home-container">
         <div className="row no-container">
           <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-            <div className="alert-pill">
-              🌟 Looking for a Software Engineer !
-            </div>
+            <div className="alert-pill">{greeting.alertPillText}</div>
             <h1 className="intro-text">
               {greeting.greetingText} <span>{greeting.name}</span>
             </h1>
@@ -30,7 +33,7 @@ function Home() {
           <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 hero-image-holder">
             <img
               className="hero-image"
-              src={ic_intro}
+              src={ic_intro_blue}
               alt="Home section background"
             />
           </div>
@@ -39,9 +42,7 @@ function Home() {
         <div className="about-myself row no-container">
           <div className="title d-flex justify-content-center">About Me</div>
           <div className="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 flex-column align-center about-myself-content">
-            <p className="sub-intro-text">{greeting.aboutMeFirstParagraph}</p>
-            <p className="sub-intro-text">{greeting.aboutMeSecondParagraph}</p>
-            <p className="sub-intro-text">{greeting.aboutMeThirdParagraph}</p>
+            <p className="sub-intro-text">{greeting.aboutMeText}</p>
           </div>
           <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 align-center">
             <img
