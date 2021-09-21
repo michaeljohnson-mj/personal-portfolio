@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-function Header() {
+function Header(props: any) {
   const kLinkedinUrl = "https://www.linkedin.com/in/michaeljohnson-mj/";
+  const theme = props.theme;
   const [isHeaderBgChange, setHeaderBackground] = useState(false);
 
   const changeHeaderBackground = () => {
@@ -24,10 +25,16 @@ function Header() {
       <div className="container header-container">
         <input type="checkbox" name="" id="check" />
         <label id="check-label" htmlFor="check">
-          <FontAwesomeIcon icon={faBars} id="btn" />
-          <FontAwesomeIcon icon={faTimes} id="cancel" />
+          <FontAwesomeIcon color={theme.themeColor} icon={faBars} id="btn" />
+          <FontAwesomeIcon
+            color={theme.themeColor}
+            icon={faTimes}
+            id="cancel"
+          />
         </label>
-        <div className="logo">MJ</div>
+        <div className="logo" style={{ color: theme.themeColor }}>
+          MJ
+        </div>
         <ul>
           <li>
             <a href="/home">HOME</a>
@@ -47,8 +54,9 @@ function Header() {
           <li>
             <a href={kLinkedinUrl} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
-                title={"LinkedIn"}
+                title={"Michael Johnson's LinkedIn"}
                 className="font-awesome-icon"
+                color={theme.themeColor}
                 icon={faLinkedin}
               />
             </a>

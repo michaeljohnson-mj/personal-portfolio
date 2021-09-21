@@ -69,10 +69,6 @@
 }
 
 .web-url {
-  text-decoration: none;
-  color: (--theme-color);
-}
-
-.web-url:hover {
   text-decoration: underline;
+  /* color: (--theme-color); */
 }

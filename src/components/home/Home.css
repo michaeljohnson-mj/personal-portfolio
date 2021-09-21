@@ -42,9 +42,9 @@
   color: var(--color-dark);
 }
 
-.intro-text > span {
+/* .intro-text > span {
   color: var(--theme-color);
-}
+} */
 
 .sub-intro-text {
   font-size: 15px;
@@ -62,18 +62,19 @@
 
 .download-cv-btn {
   font-family: "Nunito Semi Bold";
-  border: 1px solid var(--theme-color);
+  /* border: 1px solid var(--theme-color); */
   padding: 8px 34px;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
   user-select: none;
+  color: var(--color-white);
 }
 
 .download-cv-btn:hover {
-  background: var(--theme-color);
   color: var(--color-white);
-  transition: all 0.5s;
+  /* background: var(--theme-color);
+  transition: all 0.5s; */
 }
 
 .about-myself {
@@ -106,7 +107,7 @@
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
   .home-container {
-    padding: 100px 20px 20px 20px !important;
+    padding: 150px 20px 20px 20px !important;
   }
 
   .hero-image-holder {

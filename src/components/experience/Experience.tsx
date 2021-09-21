@@ -3,7 +3,8 @@ import { workExperience } from "../../portfolio";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faSnowflake } from "@fortawesome/free-regular-svg-icons";
 
-function Experience() {
+function Experience(props: any) {
+  const theme = props.theme;
   return (
     <div className="container experience-container">
       <div className="row no-container">
@@ -22,8 +23,8 @@ function Experience() {
                 <div>
                   <div className="d-flex align-items-center">
                     <span className="timeline-heading">{experience.title}</span>
-                    <div className="duration">
-                      <span className="duration-text">
+                    <div className="duration" style={{background: theme.tertiaryColor}}>
+                      <span className="duration-text" style={{color: theme.themeColor}}>
                         {experience.duration}
                       </span>
                     </div>
@@ -39,6 +40,7 @@ function Experience() {
                 <div className="timeline-icon timeline1-icon">
                   <FontAwesomeIcon
                     className="contact-icon"
+                    color={theme.themeColor}
                     icon={faSun}
                   />
                 </div>
@@ -48,8 +50,8 @@ function Experience() {
                 <div className="float-left">
                   <div className="d-flex align-items-center">
                     <span className="timeline-heading">{experience.title}</span>
-                    <div className="duration">
-                      <span className="duration-text">
+                    <div className="duration" style={{background: theme.tertiaryColor}}>
+                      <span className="duration-text" style={{color: theme.themeColor}}>
                         {experience.duration}
                       </span>
                     </div>
@@ -65,6 +67,7 @@ function Experience() {
                 <div className="timeline-icon timeline2-icon">
                   <FontAwesomeIcon
                     className="contact-icon"
+                    color={theme.themeColor}
                     icon={faSnowflake}
                   />
                 </div>

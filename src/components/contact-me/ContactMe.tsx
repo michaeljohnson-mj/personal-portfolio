@@ -3,7 +3,8 @@ import { contactMe } from "../../portfolio";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMap } from "@fortawesome/free-regular-svg-icons";
 
-function ContactMe() {
+function ContactMe(props: any) {
+  const theme = props.theme;
   return (
     <div className="contact-container">
       <div className="container">
@@ -13,15 +14,15 @@ function ContactMe() {
             Let's connect! I am available on&nbsp;
             <a
               className="contact-link"
+              style={{color: theme.themeColor}}
               href="https://www.linkedin.com/in/michaeljohnson-mj/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </a>
-            . If you want to get in touch or just say hi, I'd love to
-            hear from you. I can help you with Web and Mobile Application
-            Development.
+            . If you want to get in touch or just say hi, I'd love to hear from
+            you. I can help you with Web and Mobile Application Development.
           </span>
         </div>
         <div className="row no-container">
@@ -33,11 +34,12 @@ function ContactMe() {
               >
                 <div className="contact-info-holder">
                   <FontAwesomeIcon
+                    color={theme.themeColor}
                     className="contact-icon"
                     icon={contact.isEmail ? faEnvelope : faMap}
                   />
                   <div className="contact-title">{contact.title}</div>
-                  <span className="contact-data">{contact.contact}</span>
+                  <span style={{color: theme.themeColor}} className="contact-data">{contact.contact}</span>
                 </div>
               </div>
             );

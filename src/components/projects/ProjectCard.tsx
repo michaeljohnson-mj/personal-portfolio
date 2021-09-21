@@ -33,6 +33,7 @@ function openAppStorOrPlayStore(storeUrl: string) {
 
 function ProjectCard(props: any) {
   const project = props.project;
+  const theme = props.theme;
   return (
     <div className="project-card d-flex justify-content-center">
       <img
@@ -67,6 +68,7 @@ function ProjectCard(props: any) {
           {project.webUrl && project.webUrl !== null ? (
             <a
               className="web-url"
+              style={{ color: theme.themeColor }}
               href={project.webUrl}
               target="_blank"
               rel="noopener noreferrer"

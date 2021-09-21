@@ -6,7 +6,6 @@
   z-index: 999;
   right: 50px;
   bottom: 80px;
-  background: rgba(0, 123, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,6 +14,74 @@
 
 .hide-scroll-to-top {
   display: none;
+}
+
+.theme-settings-btn {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  background: var(--color-white);
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.theme-panel {
+  width: 240px;
+  position: fixed;
+  z-index: 9999;
+  height: 170px;
+  top: 100px;
+  left: -240px;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  transition: 0.5s;
+  padding: 15px;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+}
+
+.theme-panel a {
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.theme-palette-heading {
+  text-align: center;
+  font-family: "Nunito Regular";
+  line-height: 1.5;
+}
+
+.theme-palette-holder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.color-holder {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 3px;
 }
 
 /* MEDIA QUERIES */

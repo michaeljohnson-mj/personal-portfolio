@@ -2,7 +2,8 @@ import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 import { projects } from "../../portfolio";
 
-function Projects() {
+function Projects(props: any) {
+  const theme = props.theme;
   return (
     <div className="projects-container">
       <div className="container">
@@ -19,7 +20,7 @@ function Projects() {
                 className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4"
                 key={index}
               >
-                <ProjectCard project={project} />
+                <ProjectCard project={project} theme={theme} />
               </div>
             );
           })}

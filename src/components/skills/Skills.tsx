@@ -1,6 +1,5 @@
 import "./Skills.css";
 import { skills } from "../../portfolio";
-import ic_skills_blue from "../../assets/images/section-images/ic_skills_blue.svg";
 import ic_html5 from "../../assets/images/skill-images/ic_html5.png";
 import ic_css3 from "../../assets/images/skill-images/ic_css3.png";
 import ic_angularjs from "../../assets/images/skill-images/ic_angularjs.png";
@@ -12,6 +11,16 @@ import ic_typescript from "../../assets/images/skill-images/ic_typescript.png";
 import ic_redux from "../../assets/images/skill-images/ic_redux.png";
 import ic_npm from "../../assets/images/skill-images/ic_npm.png";
 import ic_git from "../../assets/images/skill-images/ic_git.png";
+import ic_skills_blue from "../../assets/images/section-images/ic_skills_blue.svg";
+import ic_skills_green from "../../assets/images/section-images/ic_skills_green.svg";
+import ic_skills_red from "../../assets/images/section-images/ic_skills_red.svg";
+import ic_skills_yellow from "../../assets/images/section-images/ic_skills_yellow.svg";
+import ic_skills_orange from "../../assets/images/section-images/ic_skills_orange.svg";
+import ic_skills_purple from "../../assets/images/section-images/ic_skills_purple.svg";
+import ic_skills_pink from "../../assets/images/section-images/ic_skills_pink.svg";
+import ic_skills_teal from "../../assets/images/section-images/ic_skills_teal.svg";
+import ic_skills_brown from "../../assets/images/section-images/ic_skills_brown.svg";
+import ic_skills_beige from "../../assets/images/section-images/ic_skills_beige.svg";
 
 function renderSkillImage(imageName: string) {
   switch (imageName) {
@@ -38,11 +47,39 @@ function renderSkillImage(imageName: string) {
     case "ic_git":
       return ic_git;
     default:
-      break;
+      return ic_reactjs;
   }
 }
 
-function Skills() {
+function renderSkillSectionImage(theme: string) {
+  switch (theme) {
+    case "blue":
+      return ic_skills_blue;
+    case "green":
+      return ic_skills_green;
+    case "red":
+      return ic_skills_red;
+    case "yellow":
+      return ic_skills_yellow;
+    case "orange":
+      return ic_skills_orange;
+    case "purple":
+      return ic_skills_purple;
+    case "brown":
+      return ic_skills_brown;
+    case "beige":
+      return ic_skills_beige;
+    case "teal":
+      return ic_skills_teal;
+    case "pink":
+      return ic_skills_pink;
+    default:
+      return ic_skills_blue;
+  }
+}
+
+function Skills(props: any) {
+  const theme = props.theme;
   return (
     <div className="skill-container">
       <div className="container skill-container">
@@ -50,7 +87,7 @@ function Skills() {
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1">
             <img
               className="skill-section-image"
-              src={ic_skills_blue}
+              src={renderSkillSectionImage(theme.name)}
               alt="Skills section banner"
             />
           </div>
