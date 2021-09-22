@@ -1,7 +1,7 @@
 import "./ContactMe.css";
 import { contactMe } from "../../portfolio";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMap } from "@fortawesome/free-regular-svg-icons";
+import { faMapMarkerAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function ContactMe(props: any) {
   const theme = props.theme;
@@ -14,7 +14,7 @@ function ContactMe(props: any) {
             Let's connect! I am available on&nbsp;
             <a
               className="contact-link"
-              style={{color: theme.themeColor}}
+              style={{ color: theme.themeColor }}
               href="https://www.linkedin.com/in/michaeljohnson-mj/"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,10 +36,29 @@ function ContactMe(props: any) {
                   <FontAwesomeIcon
                     color={theme.themeColor}
                     className="contact-icon"
-                    icon={contact.isEmail ? faEnvelope : faMap}
+                    icon={contact.isEmail ? faEnvelope : faMapMarkerAlt}
                   />
                   <div className="contact-title">{contact.title}</div>
-                  <span style={{color: theme.themeColor}} className="contact-data">{contact.contact}</span>
+                  {contact.isEmail ? (
+                    <a
+                      href={
+                        contact.isEmail
+                          ? "mailto:michaeljohnsonblrtech@gmail.com"
+                          : ""
+                      }
+                      style={{ color: theme.themeColor, cursor: 'pointer', textDecoration: 'none' }}
+                      className="contact-data"
+                    >
+                      {contact.contact}
+                    </a>
+                  ) : (
+                    <span
+                      style={{ color: theme.themeColor }}
+                      className="contact-data"
+                    >
+                      {contact.contact}
+                    </span>
+                  )}
                 </div>
               </div>
             );

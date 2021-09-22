@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandPointUp } from "@fortawesome/free-regular-svg-icons";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
+import { faCog, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import {
   chosenTheme,
   blueTheme,
@@ -163,7 +162,7 @@ function App() {
         onClick={() => scrollToTop()}
         title="Scroll To Top"
       >
-        <FontAwesomeIcon color="#ffffff" icon={faHandPointUp} size={"lg"} />
+        <FontAwesomeIcon color="#343a40" icon={faArrowUp} size={"lg"} />
       </div>
 
       <div id="themePalette" className="theme-panel">
