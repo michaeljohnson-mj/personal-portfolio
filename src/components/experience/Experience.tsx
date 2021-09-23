@@ -6,7 +6,7 @@ import { faSun, faSnowflake } from "@fortawesome/free-regular-svg-icons";
 function Experience(props: any) {
   const theme = props.theme;
   return (
-    <div className="container experience-container">
+    <div className="container experience-container" id="experience">
       <div className="row no-container">
         <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 align-center">
           <div className="title-holder">

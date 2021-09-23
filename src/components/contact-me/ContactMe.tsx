@@ -6,7 +6,7 @@ import { faMapMarkerAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function ContactMe(props: any) {
   const theme = props.theme;
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="container">
         <div className="row no-container title-holder">
           <h1 className="title align-text-center">{contactMe.title}</h1>

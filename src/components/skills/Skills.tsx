@@ -81,7 +81,7 @@ function renderSkillSectionImage(theme: string) {
 function Skills(props: any) {
   const theme = props.theme;
   return (
-    <div className="skill-container">
+    <div className="skill-container" id="skills">
       <div className="container skill-container">
         <div className="row no-container">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1">

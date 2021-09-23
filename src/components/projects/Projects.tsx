@@ -5,7 +5,7 @@ import { projects } from "../../portfolio";
 function Projects(props: any) {
   const theme = props.theme;
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <div className="container">
         <div className="row no-container title-holder">
           <h1 className="title align-text-center">{projects.title}</h1>

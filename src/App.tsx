@@ -176,7 +176,11 @@ function App() {
                 onClick={() => changeTheme(color.name)}
                 className="color-holder"
               >
-                <a href="javascript:void(0)" style={{ background: color.color }} className="color" />
+                <a
+                  href="javascript:void(0)"
+                  style={{ background: color.color }}
+                  className="color"
+                />
               </div>
             );
           })}

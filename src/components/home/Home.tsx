@@ -42,7 +42,7 @@ function renderIntroImage(theme: string) {
 function Home(props: any) {
   const theme = props.theme;
   return (
-    <div className="home-area">
+    <div className="home-area" id="home">
       <div className="container home-container">
         <div className="row no-container">
           <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">

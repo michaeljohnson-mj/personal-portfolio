@@ -3,6 +3,34 @@ import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+function activeLinkStyle(theme: string) {
+  switch (theme) {
+    case "blue":
+      return "active-blue";
+    case "green":
+      return "active-green";
+    case "red":
+      return "active-red";
+    case "yellow":
+      return "active-yellow";
+    case "orange":
+      return "active-orange";
+    case "purple":
+      return "active-purple";
+    case "brown":
+      return "active-brown";
+    case "beige":
+      return "active-beige";
+    case "teal":
+      return "active-teal";
+    case "pink":
+      return "active-pink";
+    default:
+      return "active-blue";
+  }
+}
 
 function Header(props: any) {
   const kLinkedinUrl = "https://www.linkedin.com/in/michaeljohnson-mj/";
@@ -37,19 +65,59 @@ function Header(props: any) {
         </div>
         <ul>
           <li>
-            <a href="/home">HOME</a>
+            <Link
+              activeClass={activeLinkStyle(theme.name)}
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              HOME
+            </Link>
           </li>
           <li>
-            <a href="/skills">SKILLS</a>
+            <Link
+              activeClass={activeLinkStyle(theme.name)}
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              SKILLS
+            </Link>
           </li>
           <li>
-            <a href="/experience">EXPERIENCE</a>
+            <Link
+              activeClass={activeLinkStyle(theme.name)}
+              to="experience"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              EXPERIENCE
+            </Link>
           </li>
           <li>
-            <a href="/projects">PROJECTS</a>
+            <Link
+              activeClass={activeLinkStyle(theme.name)}
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              PROJECTS
+            </Link>
           </li>
           <li>
-            <a href="/contact">CONTACT</a>
+            <Link
+              activeClass={activeLinkStyle(theme.name)}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              CONTACT
+            </Link>
           </li>
           <li>
             <a href={kLinkedinUrl} target="_blank" rel="noopener noreferrer">

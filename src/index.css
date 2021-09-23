@@ -6,6 +6,17 @@
   --color-grey-secondary: #f0f0fe;
   --color-white: #ffffff;
   --color-white-secondary: #f6f7fa;
+
+  --color-blue: #007bff;
+  --color-red: #e54b4b;
+  --color-green: #01a479;
+  --color-yellow: #fdd76e;
+  --color-orange: #f95700;
+  --color-teal: #21d4b9;
+  --color-brown: #8b5e34;
+  --color-pink: #fe6d73;
+  --color-beige: #ecce96;
+  --color-purple: #6c63ff;
 }
 
 * {
@@ -16,7 +27,7 @@
 
 .no-container {
   margin-left: 0 !important;
-  margin-right: 0 !important; 
+  margin-right: 0 !important;
 }
 
 @font-face {

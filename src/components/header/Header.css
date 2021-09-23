@@ -42,6 +42,7 @@
 .header-container ul li {
   margin-inline: 10px;
   padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .header-container ul li a {
@@ -52,8 +53,8 @@
   font-size: 15px;
 }
 
-.header-container ul li:hover a {
-  color: var(--theme-color);
+.header-container ul li a:hover {
+  /* color: var(--theme-color); */
   font-family: "Nunito Semi Bold";
 }
 
@@ -81,6 +82,46 @@ label #cancel {
   display: none;
 }
 
+.active-blue {
+  color: var(--color-blue) !important;
+}
+
+.active-red {
+  color: var(--color-red) !important;
+}
+
+.active-green {
+  color: var(--color-green) !important;
+}
+
+.active-yellow {
+  color: var(--color-yellow) !important;
+}
+
+.active-orange {
+  color: var(--color-orange) !important;
+}
+
+.active-teal {
+  color: var(--color-teal) !important;
+}
+
+.active-brown {
+  color: var(--color-brown) !important;
+}
+
+.active-pink {
+  color: var(--color-pink) !important;
+}
+
+.active-beige {
+  color: var(--color-beige) !important;
+}
+
+.active-purple {
+  color: var(--color-purple) !important;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 700px) {
   .header {
@@ -104,7 +145,7 @@ label #cancel {
     background: var(--color-white);
     transition: 0.7s;
     flex-direction: column;
-    box-shadow: 0px 15px 30px -20px #111;  
+    box-shadow: 0px 15px 30px -20px #111;
     z-index: -1;
   }
 
