@@ -31,6 +31,7 @@
   letter-spacing: 1px;
   font-family: "Nunito Bold";
   cursor: pointer;
+  user-select: none;
 }
 
 .header-container ul {

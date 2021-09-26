@@ -21,6 +21,7 @@ import ic_skills_pink from "../../assets/images/section-images/ic_skills_pink.sv
 import ic_skills_teal from "../../assets/images/section-images/ic_skills_teal.svg";
 import ic_skills_brown from "../../assets/images/section-images/ic_skills_brown.svg";
 import ic_skills_beige from "../../assets/images/section-images/ic_skills_beige.svg";
+import SkillsBanner from "./SkillsBanner";
 
 function renderSkillImage(imageName: string) {
   switch (imageName) {
@@ -84,12 +85,11 @@ function Skills(props: any) {
     <div className="skill-container" id="skills">
       <div className="container skill-container">
         <div className="row no-container">
-          <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1">
-            <img
-              className="skill-section-image"
-              src={renderSkillSectionImage(theme.name)}
-              alt="Skills section banner"
-            />
+          <div
+            className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 order-5 order-sm-5 order-md-1 order-lg-1 order-xl-1 skill-banner-holder"
+            style={{ display: "flex" }}
+          >
+            <SkillsBanner theme={theme} />
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-center flex-column order-1 order-sm-1 order-md-5 order-lg-5 order-xl-5">
             <div className="align-center flex-column">

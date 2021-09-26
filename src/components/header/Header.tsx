@@ -37,6 +37,10 @@ function Header(props: any) {
   const theme = props.theme;
   const [isHeaderBgChange, setHeaderBackground] = useState(false);
 
+  const navigateToHome = () => {
+    window.scrollTo(0, 0);
+  }
+
   const changeHeaderBackground = () => {
     const distanceScrolled = 100;
     if (window.scrollY >= distanceScrolled) {
@@ -60,7 +64,11 @@ function Header(props: any) {
             id="cancel"
           />
         </label>
-        <div className="logo" style={{ color: theme.themeColor }}>
+        <div
+          className="logo"
+          style={{ color: theme.themeColor }}
+          onClick={() => navigateToHome()}
+        >
           MJ
         </div>
         <ul>

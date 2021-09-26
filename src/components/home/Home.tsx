@@ -11,6 +11,7 @@ import ic_intro_teal from "../../assets/images/section-images/ic_intro_teal.svg"
 import ic_intro_brown from "../../assets/images/section-images/ic_intro_brown.svg";
 import ic_intro_beige from "../../assets/images/section-images/ic_intro_beige.svg";
 import ic_profile_pic from "../../assets/images/ic_profile_pic.jpg";
+import HomeBanner from "./HomeBanner";
 
 function renderIntroImage(theme: string) {
   switch (theme) {
@@ -64,12 +65,11 @@ function Home(props: any) {
               </a>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 hero-image-holder">
-            <img
-              className="hero-image"
-              src={renderIntroImage(theme.name)}
-              alt="Home section background"
-            />
+          <div
+            className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 hero-image-holder"
+            style={{ display: "flex" }}
+          >
+            <HomeBanner theme={theme} />
           </div>
         </div>
 

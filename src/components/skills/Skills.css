@@ -16,10 +16,9 @@
   justify-content: center;
 }
 
-.skill-section-image {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
+.skill-banner-holder > * {
+  max-width: 100%;
+  height: auto;
 }
 
 .skill-icon {
