@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.18943afe.chunk.css",
-    "main.js": "/static/js/main.8c94138f.chunk.js",
-    "main.js.map": "/static/js/main.8c94138f.chunk.js.map",
+    "main.css": "/static/css/main.93ecaa6a.chunk.css",
+    "main.js": "/static/js/main.c945db26.chunk.js",
+    "main.js.map": "/static/js/main.c945db26.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a860e63.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a860e63.js.map",
     "static/css/2.61b4cb56.chunk.css": "/static/css/2.61b4cb56.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.98a7ebbd.chunk.js.map": "/static/js/3.98a7ebbd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.18943afe.chunk.css.map": "/static/css/main.18943afe.chunk.css.map",
+    "static/css/main.93ecaa6a.chunk.css.map": "/static/css/main.93ecaa6a.chunk.css.map",
     "static/js/2.c8dfe279.chunk.js.LICENSE.txt": "/static/js/2.c8dfe279.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Nunito-SemiBold.06337b2e.ttf",
     "static/media/ic_appstore.2e805a2b.svg": "/static/media/ic_appstore.2e805a2b.svg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.4a860e63.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.c8dfe279.chunk.js",
-    "static/css/main.18943afe.chunk.css",
-    "static/js/main.8c94138f.chunk.js"
+    "static/css/main.93ecaa6a.chunk.css",
+    "static/js/main.c945db26.chunk.js"
   ]
 }
