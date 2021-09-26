@@ -37,7 +37,7 @@
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
-  .skill-section-image {
-    margin-top: 30px;
+  .skill-banner-holder {
+    margin-top: 30px !important;
   }
 }

@@ -51,7 +51,6 @@
 
 .download-cv-btn {
   font-family: "Nunito Semi Bold";
-  /* border: 1px solid var(--theme-color); */
   padding: 8px 34px;
   border-radius: 10px;
   text-decoration: none;
@@ -62,8 +61,6 @@
 
 .download-cv-btn:hover {
   color: var(--color-white);
-  /* background: var(--theme-color);
-  transition: all 0.5s; */
 }
 
 .about-myself {

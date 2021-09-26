@@ -15,14 +15,12 @@
 }
 
 .header-container {
-  /* margin-inline: 20px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  /* color: var(--theme-color); */
   margin: 0;
   float: left;
   font-weight: 700;
@@ -55,14 +53,12 @@
 }
 
 .header-container ul li a:hover {
-  /* color: var(--theme-color); */
   font-family: "Nunito Semi Bold";
 }
 
 .font-awesome-icon {
   font-size: 20px;
   cursor: pointer;
-  /* color: var(--theme-color); */
 }
 
 #check-label {
@@ -71,7 +67,6 @@
 
 label #btn,
 label #cancel {
-  /* color: var(--theme-color); */
   font-size: 30px;
   float: right;
   line-height: 80px;

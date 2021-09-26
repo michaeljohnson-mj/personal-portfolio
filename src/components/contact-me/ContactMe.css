@@ -12,7 +12,6 @@
 
 .contact-icon {
   font-size: 30px;
-  /* color: var(--theme-color); */
 }
 
 .contact-title {
@@ -30,12 +29,10 @@
   line-height: 26px;
   display: block;
   font-family: "Nunito Semi Bold";
-  /* color: var(--theme-color); */
   padding-bottom: 30px;
 }
 
 .contact-link {
-  /* color: var(--theme-color); */
   cursor: pointer;
   text-decoration: underline;
 }
