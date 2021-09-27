@@ -21,7 +21,7 @@ const greeting = {
   aboutMeText:
     "A Software Engineer based in Bengaluru, whose primary focus is on Web and Mobile Application Development using ReactJS and React Native with an additional experience on Backend development using NodeJS and ExpressJS. I have been employed in the tech industry since 2016. Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups. I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
   resumeLink:
-    "https://drive.google.com/file/d/13v8IN2Bxp5HUx3x5rA9Z03ZQav8mt4Y3/view?usp=sharing",
+    "https://drive.google.com/file/d/1GvYvv-mjs1DKtJtaXCqT2-MU26Hk8MPF/view?usp=sharing",
   alertPillText: "🌟 Looking for a Software Engineer ?",
 };
 
@@ -207,7 +207,7 @@ const contactMe = {
   contacts: [
     {
       title: "Email",
-      contact: "michaeljohnsonblrtech@gmail.com",
+      contact: "michaeljohnson.dev@gmail.com",
       isEmail: true,
     },
     {
