@@ -39,7 +39,14 @@ function Header(props: any) {
 
   const navigateToHome = () => {
     window.scrollTo(0, 0);
-  }
+  };
+
+  const closeNavMenu = () => {
+    const checkbox = document.getElementById("check") as HTMLInputElement;
+    if (checkbox) {
+      checkbox.checked = false;
+    }
+  };
 
   const changeHeaderBackground = () => {
     const distanceScrolled = 100;
@@ -79,6 +86,7 @@ function Header(props: any) {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={() => closeNavMenu()}
             >
               HOME
             </Link>
@@ -90,6 +98,7 @@ function Header(props: any) {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={() => closeNavMenu()}
             >
               SKILLS
             </Link>
@@ -101,6 +110,7 @@ function Header(props: any) {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={() => closeNavMenu()}
             >
               EXPERIENCE
             </Link>
@@ -112,6 +122,7 @@ function Header(props: any) {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={() => closeNavMenu()}
             >
               PROJECTS
             </Link>
@@ -123,6 +134,7 @@ function Header(props: any) {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={() => closeNavMenu()}
             >
               CONTACT
             </Link>
