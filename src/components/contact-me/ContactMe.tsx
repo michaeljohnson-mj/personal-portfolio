@@ -43,7 +43,7 @@ function ContactMe(props: any) {
                     <a
                       href={
                         contact.isEmail
-                          ? "mailto:michaeljohnsonblrtech@gmail.com"
+                          ? "mailto:michaeljohnson.dev@gmail.com"
                           : ""
                       }
                       style={{ color: theme.themeColor, cursor: 'pointer', textDecoration: 'none' }}
