@@ -4,7 +4,7 @@
 const seo = {
   title: "Portfolio - Michael Johnson | Software Engineer",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A software engineer who focuses on building engaging and interactive applications across the spectrum of devices and platforms by using modern technologies, frameworks etc.",
   og: {
     title: "Portfolio - Michael Johnson | Software Engineer",
     type: "website",
@@ -19,7 +19,7 @@ const greeting = {
   introText:
     "A software engineer who focuses on building engaging and interactive applications across the spectrum of devices and platforms by using modern technologies, frameworks etc.",
   aboutMeText:
-    "A Software Engineer based in Bengaluru, whose primary focus is on Web and Mobile Application Development using ReactJS and React Native with an additional experience on Backend development using NodeJS and ExpressJS. I have been employed in the tech industry since 2016. Having worked in a startup environment for over 4.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups. I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
+    "A Software Engineer based in Bengaluru, whose primary focus is on Web and Mobile Application Development using ReactJS and React Native with an additional experience on Backend development using NodeJS and ExpressJS. I have been employed in the tech industry since 2016. Having worked in a startup environment for over 5.5 years, I have delivered projects both in individual capacity and as a team member and also managed various teams and resources across different functional groups. I've done software development starting from the ideation phase to delivery and have also been directly involved with business owners in gathering requirements and planning.",
   resumeLink:
     "https://drive.google.com/file/d/1GvYvv-mjs1DKtJtaXCqT2-MU26Hk8MPF/view?usp=sharing",
   alertPillText: "🌟 Looking for a Software Engineer ?",
@@ -180,14 +180,14 @@ const degrees = {
 const workExperience = {
   title: "Work History",
   subtitle:
-    "I have over 4.5 years of experience in building software by working in a startup environment.",
+    "I have over 5.5 years of experience in building software by working in a startup environment.",
   experiences: [
     {
       title: "Senior Software Engineer",
       company: "Emproto Technologies Private Limited, Bengaluru",
-      duration: "2017 - 2021",
+      duration: "2017 - Current",
       description:
-        "Developed large scale highly interactive Frontend / User Interfaces for web and mobile applications. ",
+        "Developed large scale highly interactive Frontend / User Interfaces for web and mobile applications.",
     },
     {
       title: "Software Engineer",
@@ -203,7 +203,7 @@ const workExperience = {
 const contactMe = {
   title: "Get In Touch",
   description:
-    "I am available on Linkedin. You can message me, I will reply within 24 hours. I can help you with Web and Mobile Application Development.",
+    "I am available on Linkedin. You can message me, I will reply within 24 to 48 hours. I can help you with Web and Mobile Application Development.",
   contacts: [
     {
       title: "Email",
